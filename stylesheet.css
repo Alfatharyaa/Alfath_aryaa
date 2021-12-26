@@ -127,20 +127,21 @@ body {
     transition: 0.5s;
 }
   .lesson-wrapper {
-    height: 500px;
+    height: 700px;
     padding-bottom: 30px;
     text-align: center;
     padding-top:30px;
-    width:100%;
     background-color:blanchedalmond;
+    max-height:1500px;
   }
   
   .heading {
     padding-top: 60px;
     padding-bottom: 30px;
     color: #5f5d60;
-    min-width:300px;
-    float:left
+    max-height:1500px;
+
+    
   }
   
   .heading h1 {
@@ -185,17 +186,16 @@ border-radius:10px
 
 /*----- course -----*/
 .lesson-wrapper{
-  padding: 80px 20px 80px 20px;
+
 
   background-size: cover;
-  color: rgb(0, 0, 0);
-  text-align: right}
+  color: rgb(0, 0, 0);}
 .heading p{
     text-align: left;
-    line-height: 20px;
-    font-size: 20px;
+    line-height: 30px;
+    font-size: 30px;
     position: relative;
-    width : 60%;
+    width : 90%;
     margin-left : 40px
 }
 .footer{
@@ -283,7 +283,7 @@ margin-left: 60px;}
   font-family:  MS, sans-serif;
 background-color:lightgoldenrodyellow;
 padding-top:50px;
-padding-bottom: 50px}
+padding-bottom: 50px;}
 
 .title1 h1 {
   font-weight: normal;
@@ -347,8 +347,8 @@ footer{
 
 .heading img{
   float : left;
-  max-height: 500px;
-  max-height: 500px;
+  max-height: 550px;
+  max-height: 550px;
 }
 .title1{
   background-color:lightgoldenrodyellow;
