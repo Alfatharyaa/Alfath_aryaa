@@ -20,18 +20,18 @@ body {
   }
   
   .top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(bg12.jpg);
+    padding: 100px 0 50px 0;
     background-size: cover;
     color: rgb(0, 0, 0);
     text-align: left;
+    background-color: beige;
   }
   
   .top-wrapper h1 {
     opacity: 0.7;
     font-size: 45px;
     letter-spacing: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   .top-wrapper p {
@@ -128,13 +128,12 @@ body {
     transition: 0.5s;
 }
   .lesson-wrapper {
-    height: 600px;
-    padding-bottom: 80px;
-    background-color: #f7f7f7;
+    height: 500px;
+    padding-bottom: 30px;
     text-align: center;
-    padding-top:80px;
-    min-width:300px;
-    width:100%
+    padding-top:30px;
+    width:100%;
+    background-color:blanchedalmond;
   }
   
   .heading {
@@ -146,9 +145,9 @@ body {
   
   .heading h1 {
     font-weight: normal;
-    float: right;
-    margin-right: 200px;
+    float: left;
     padding-top:10px;
+    margin-left: 40px;
     font-size: 62px;
     border-bottom: 5px solid yellow;
     border-radius:10px;
@@ -187,19 +186,19 @@ border-radius:10px
 
 /*----- course -----*/
 .lesson-wrapper{
-  padding: 180px 0 100px 0;
-  background-image: url(jakun2.jpg);
+  padding: 80px 20px 80px 20px;
+
   background-size: cover;
   color: rgb(0, 0, 0);
-  text-align: right;
-      }
+  text-align: right}
 .heading p{
-    float: right;
+    float: left;
     text-align: left;
-    padding-left:500px;
     line-height: 20px;
     font-size: 20px;
     position: relative;
+    width : 60%;
+    margin-left : 40px
 }
 .footer{
   padding:40px 0;
@@ -253,43 +252,45 @@ border-radius:10px
   color: #fff;
 }
 .lessonk{
-  float:left;
-  width:100%;
-  padding-top: 30px;
-  background-color: rgb(0, 162, 255);
+  float:right;
+  width:35%;
+  background-color: rgb(55, 105, 134);
 border-radius: 20px;
-margin-bottom: 40px;
+margin-bottom: 70px;
 transition: 0.8s;
+margin-right: 60px;
 }
 
 .lessonn{
-  float:right;
-  width:100%;
-  padding-top: 30px;
-  background-color: rgb(0, 238, 255);
+  float:left;
+  width:35%;
+  padding-top: 0px;
+  background-color: rgb(55, 105, 134);
   border-radius: 20px;
- margin-bottom: 40px;
+ margin-bottom: 70px;
  font-family:  MS, sans-serif;
-transition: 0.8s;}
+transition: 0.8s;
+margin-left: 60px;}
+
 .lessonk:hover{
-  background-color: rgb(51, 45, 141);
+  background-color: rgb(43, 30, 224);
 }
 .lessonn:hover{
-  background-color: rgb(51, 45, 141);
+  background-color: rgb(43, 30, 224);
 }
 
-.lessons{
-  padding-top: 100px;
-  padding-bottom: 40px;
+.about_me{
   width:100%;
   min-width:300px;
   border-radius: 10px;
   font-family:  MS, sans-serif;
-color:#fff}
+background-color:lightgoldenrodyellow;
+padding-top:50px;
+padding-bottom: 50px}
 
 .title1 h1 {
   font-weight: normal;
-  float: left;
+  float: middle;
   padding-left: 10px;
   padding-top:10px;
   font-size: 62px;
@@ -315,30 +316,21 @@ padding : 20px 40px;
   max-width: 225px;
 }
 .conn{
-  float:left;
-  padding-left: 30px;
-  padding-top:30px;}
+  padding-top: 0px;
+  text-align: center;}
 .judulon{
-  border-bottom: 5px solid yellow;
   border-radius: 10px;
-  position:relative;
   text-align: center;
-  display:inline;
   
 }
 .conk{
-  float:right;
-  padding-right: 30px;
-  text-align: right;
-  padding-top:40px
+  text-align: center;
+  padding-top:0px
 
 }
 .judulok{
-  border-bottom: 5px solid yellow;
   border-radius: 10px;
-  position:relative;
   text-align: center;
-  display:inline;
   
 }
 footer{
@@ -350,4 +342,33 @@ footer{
   width:100%;
   position:fixed;
   z-index: 100;
+}
+.container img{
+  max-height: 450px;
+  max-width: 450px;
+  float:right}
+
+.heading img{
+  float : left;
+  max-height: 500px;
+  max-height: 500px;
+}
+.title1{
+  background-color:lightgoldenrodyellow;
+  text-align:center;
+  width: 100%
+}
+.lessonk h2{
+  color:white;
+  text-align: center;
+}
+.lessonn h2{
+  color:white;
+  text-align: center;
+}
+.heading p span{
+  color : red
+}
+.title1 h1 span {
+  color : rgb(31, 16, 243)
 }
