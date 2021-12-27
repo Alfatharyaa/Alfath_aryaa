@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: "Lucida Grande";
@@ -30,7 +31,7 @@ body {
     opacity: 0.7;
     font-size: 45px;
     letter-spacing: 5px;
-    margin-bottom: 5px;
+    margin: 13px 0 13px 0
   }
   
   .top-wrapper p {
@@ -367,4 +368,57 @@ footer{
 }
 .title1 h1 span {
   color : rgb(55, 105, 134)
+}
+.dynamic-txts{
+  font-size: 45px;
+  color : red;
+  font-family: 30;
+  background : beige;
+  line-height: 50px;
+  height: 50px;
+  overflow: hidden;
+  letter-spacing: 5px;
+  position: relative;
+  opacity: 0.7;
+  padding: 0;
+  margin: 0;
+  font-weight: 70px;
+
+}
+.dynamic-txts li {
+  list-style: none;
+  margin-right: 40px;
+  animation: slide 4.5s steps(3) infinite;
+  position: relative;
+  top: 0;
+}
+@keyframes slide {
+  100%{
+    top: -150px;
+
+
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  border-left: 5px solid rgb(248, 170, 0);
+  left : 0;
+  animation: typing 1.5s steps(15) infinite;
+  width: 100%;
+  background:beige;
+  border-radius : 2.5px
+}
+
+@keyframes typing {
+  100%{
+    left: 100%;
+    margin : 0 -40px 0 40px;
+
+  }
 }
