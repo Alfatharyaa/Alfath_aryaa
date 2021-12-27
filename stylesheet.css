@@ -313,6 +313,12 @@ padding : 20px 40px;
   max-height: 225px;
   max-width: 225px;
 }
+.lessonk:hover{
+  cursor: pointer;
+}
+.lessonn:hover{
+  cursor: pointer;
+}
 .conn{
   padding-top: 0px;
   text-align: center;}
