@@ -31,7 +31,7 @@ body {
     opacity: 0.7;
     font-size: 45px;
     letter-spacing: 5px;
-    margin: 13px 0 13px 0
+    margin: 13px 0 20px 0
   }
   
   .top-wrapper p {
@@ -400,7 +400,7 @@ footer{
 }
 @keyframes slide {
   100%{
-    top: -150px;
+    top: -153px;
 
 
   }
