@@ -31,7 +31,7 @@ body {
     opacity: 0.7;
     font-size: 45px;
     letter-spacing: 5px;
-    margin: 13px 0 20px 0
+    margin: 13px 0 13px 0
   }
   
   .top-wrapper p {
@@ -89,6 +89,8 @@ body {
     background-color: rgba(49, 119, 224, 0.9);
     position:fixed;
     z-index :10;
+    transition: background 0.5s;
+
   }
   
   .logo {
@@ -107,6 +109,7 @@ body {
   }
   .header-right{
       float: right;
+      transition: background 0.5s;
   }
   
   .header-right ul li{
@@ -292,8 +295,7 @@ padding-bottom: 50px;}
   padding-left: 10px;
   padding-top:10px;
   font-size: 62px;
-  border-bottom: 5px solid rgb(39, 61, 185);
-  border-radius:10px;
+  border-radius:70px;
   font-weight: bold;
   color:#5f5d60}
 
@@ -313,12 +315,6 @@ padding : 20px 40px;
   max-height: 225px;
   max-width: 225px;
 }
-.lessonk:hover{
-  cursor: pointer;
-}
-.lessonn:hover{
-  cursor: pointer;
-}
 .conn{
   padding-top: 0px;
   text-align: center;}
@@ -331,6 +327,12 @@ padding : 20px 40px;
   text-align: center;
   padding-top:0px
 
+}
+.lessonk:hover{
+  cursor: pointer;
+}
+.lessonn:hover{
+  cursor: pointer;
 }
 .judulok{
   border-radius: 10px;
@@ -394,7 +396,7 @@ footer{
 .dynamic-txts li {
   list-style: none;
   margin-right: 40px;
-  animation: slide 4.5s steps(3) infinite;
+  animation: slide 9s steps(3) infinite;
   position: relative;
   top: 0;
 }
@@ -415,15 +417,20 @@ footer{
   height: 100%;
   border-left: 5px solid rgb(248, 170, 0);
   left : 0;
-  animation: typing 1.5s steps(15) infinite;
+  animation: typing 3s steps(20) infinite;
   width: 100%;
   background:beige;
   border-radius : 2.5px
 }
 
 @keyframes typing {
-  100%{
+  50%{
     left: 100%;
+    margin : 0 -40px 0 40px;
+
+  }
+  100%{
+    right: 100%;
     margin : 0 -40px 0 40px;
 
   }
