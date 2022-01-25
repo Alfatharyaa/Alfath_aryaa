@@ -471,6 +471,7 @@ header {
   border-bottom-right-radius: 10px;
   background-image: linear-gradient(to left,rgba(49, 119, 224, 0.562),black), url(kopi.jpg);
   color:white;
+  height:80px;
 }
 .kerja{
   padding: 60px 50px;
@@ -480,7 +481,8 @@ header {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background-image: linear-gradient(to left,rgba(49, 119, 224, 0.562),black), url(arduio.jpg);
-  color:white
+  color:white;
+  height:80px
   
 }
 
@@ -492,7 +494,8 @@ header {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   background-image: linear-gradient(to right,rgba(49, 119, 224, 0.562),black), url(code_bck.jpg);
-  color:white
+  color:white;
+  height:80px
   
 }
 .yes{
@@ -503,7 +506,8 @@ header {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   background-image: linear-gradient(to right,rgba(49, 119, 224, 0.562),black), url(keyboard.jpg);
-  color:white
+  color:white;
+  height:80px
 }
 .kopi h3{
   font-size: 20px;
