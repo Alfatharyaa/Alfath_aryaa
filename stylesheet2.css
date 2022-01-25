@@ -1,0 +1,556 @@
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    min-width:300px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 90%;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+  }
+  
+ .top-wrapper{
+     width:100%;
+     height:350px;
+     max-height: 400px;
+     background-image: linear-gradient(rgba(124, 137, 158, 0.9),rgba(124, 137, 158, 0.9)), url(cover2.jpg);
+     background-size: cover;
+ }
+ .container h1{
+     justify-content: center;
+     float: middle;
+     color: white;
+     display: flex;
+     height: 175px;
+     line-height: 175px;
+     font-size: 70px;
+     font-family: "Lucida Grande"
+
+ }
+  
+ 
+  
+  .logo {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Snell Roundhand, cursive;
+    color: white;
+    float:left;
+    line-height: 65px;
+    cursor:pointer ;
+
+  }
+  
+  .header-left {
+    float: left;
+  }
+  .header-right{
+      float: right;
+      transition: background 0.5s;
+  }
+  
+  .header-right ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.header-right ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+}
+.header-right ul li a:hover{
+    border-bottom: 3px solid yellow;
+    transition: 0.5s;}
+
+.education{
+    border-bottom: 3px solid yellow;
+    transition: 0.5s;
+}
+  .lesson-wrapper {
+    max-height: 1500px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top:30px;
+    background-color:blanchedalmond;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+
+    
+  }
+  
+  .heading h1 {
+    font-weight: normal;
+    padding-top:10px;
+    margin-left: 40px;
+    font-size: 62px;
+    border-bottom: 5px solid rgb(219, 84, 31);
+    border-radius:10px;
+    font-weight: bold;
+    text-align: left;
+    
+  }
+  
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  
+.container h1 span{
+    color:red
+}
+.btn-wrapper a{
+border-radius:10px
+}
+
+/*----- course -----*/
+.lesson-wrapper{
+
+
+  background-size: cover;
+  color: rgb(0, 0, 0);}
+.heading p{
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+    position: relative;
+    width : 90%;
+    margin-left : 40px
+}
+.footer{
+  padding:40px 0;
+  background-color:rgba(49, 119, 224, 0.9);
+  
+  
+}
+.footer .social{
+  text-align:center;
+  padding-bottom: 25px;
+  color:#25239b;
+}
+
+.footer .social a{
+  font-size:24px;
+  color:inherit;
+  border:1px solid #ccc;
+  width:40px;
+  height:40px;
+  line-height:38px;
+  display:inline-block;
+  text-align:center;
+  border-radius: 50%;
+  margin:0 8px;
+  opacity:0.75;
+}
+.footer .social a:hover{
+  opacity:0.5;
+}
+.footer ul{
+  margin-top:0;
+  padding:0;
+  list-style: none;
+  font-size: 18px;
+  margin-bottom:0;
+  text-align: center;
+}
+.footer ul li a{
+  color:inherit;
+  text-decoration: none;
+  opacity:0.8;
+  color: #fff;
+}
+.footer ul li {
+  display:inline-block;
+  padding:0 15px;
+
+}
+.footer .list p{
+  text-align: center;
+  color: #fff;
+}
+.lessonk{
+  float:right;
+  width:35%;
+  background-color: rgb(55, 105, 134);
+border-radius: 20px;
+margin-bottom: 70px;
+transition: 0.8s;
+margin-right: 60px;
+}
+
+.lessonn{
+  float:left;
+  width:35%;
+  padding-top: 0px;
+  background-color: rgb(55, 105, 134);
+  border-radius: 20px;
+ margin-bottom: 70px;
+ font-family:  MS, sans-serif;
+transition: 0.8s;
+margin-left: 60px;}
+
+.lessonk:hover{
+  background-color: rgb(43, 30, 224);
+}
+.lessonn:hover{
+  background-color: rgb(43, 30, 224);
+}
+
+.about_me{
+  min-width:300px;
+  border-radius: 10px;
+  font-family:  MS, sans-serif;
+background-color:lightgoldenrodyellow;
+padding-top:50px;
+padding-bottom: 50px;}
+
+.title1 h1 {
+  font-weight: normal;
+  float: middle;
+  font-size: 62px;
+  border-radius:70px;
+  font-weight: bold;
+  color:#5f5d60;
+  padding: 7px 10px;}
+.everyone{
+  background-color:rgb(55, 105, 134) ;
+  color:lightgoldenrodyellow;
+  margin-left: 10px;
+  padding: 0px 10px;
+  border-radius: 8px
+}
+.foto img{
+    max-height: 450px;
+    max-width: 450px;
+    position: relative;
+    background-image: linear-gradient(to top right, rgb(40, 112, 160),rgba(29, 123, 151, 0.61),rgb(250, 250, 210));
+    border-radius:10px;
+    margin: 20px;
+    padding:15px
+}
+
+
+.foto{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    background:(lightgoldenrodyellow);
+    padding: 15px; 
+}
+
+
+.content a{
+    color: white;
+    background-color:rgba(40, 112, 160);
+    padding : 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 0.5s
+}
+.content a:hover{
+    background-color:white;
+    color : rgba(40, 112, 160);
+}
+
+.title1{
+    width: 100%;
+    text-align:center;
+}
+.datadiri{
+  width: 100%;
+}
+.datadiri ul li{
+    list-style: none;
+    text-align: left;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin:0;
+    padding: 0;
+    position: relative;
+}
+.datadiri ul li span{
+    border-radius: 3px;
+    margin-left: -40px;
+    background-image: linear-gradient(to right, rgba(40, 112, 160),lightgoldenrodyellow);
+    color:rgb(255, 255, 255);
+}
+.datadiri h3{
+  font-family:  MS, sans-serif ;
+  font-size: 30px;
+  color:rgba(40, 112, 160);
+  padding-bottom:10px;
+}
+@keyframes boxBorderAnimation {
+  from { background-position:  0 0, -20px 0, 100% -20px, 0 100%; }
+  to { background-position:  0 -20px, 0 0, 100% 0, -20px 100%; }
+}
+.datadiri h3{
+    background-image: repeating-linear-gradient(16deg, lightgoldenrodyellow, lightgoldenrodyellow 17.1px, transparent 19px, transparent 29.8px, lightgoldenrodyellow 31px), repeating-linear-gradient(106deg, lightgoldenrodyellow, lightgoldenrodyellow 17.1px, transparent 19px, transparent 29.8px, lightgoldenrodyellow 31px), repeating-linear-gradient(196deg, lightgoldenrodyellow, lightgoldenrodyellow 17.1px, transparent 19px, transparent 29.8px, lightgoldenrodyellow 31px), repeating-linear-gradient(286deg, rgba(40, 112, 160), rgba(40, 112, 160) 17.1px, transparent 19px, transparent 29.8px, rgba(40, 112, 160) 31px);
+    background-size: 10px calc(100% + 32.25px), calc(100% + 32.25px) 5px, 5px calc(100% + 32.25px) , calc(100% + 32.25px) 5px;
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat;
+    animation: borderAnimation 0.8s infinite linear;
+    }
+    @keyframes borderAnimation {
+      from { background-position: 0 0, -32.25px 0, 100% -32.25px, 0 100%; }
+      to { background-position: 0 -32.25px, 0 0, 100% 0, -32.25px 100%; }}
+.BRT{
+  padding: 5px 10px 5px 5px
+}
+.otr{
+  padding: 5px 32px 5px 5px
+}
+
+.content p {
+    text-align: left;
+    max-width: 80%;
+    line-height: 20px;
+    
+}
+.content{
+    display: inline-flex;
+    width: 80%;
+    text-align: left;
+    position: relative;
+    margin: 0 auto
+}
+
+
+footer{
+  margin-top:auto
+}
+#preloader{
+  background:#000 url(loader1.gif)no-repeat center center;
+  height:100vh;
+  width:100%;
+  position:fixed;
+  z-index: 100;
+}
+.container img{
+  max-height: 450px;
+  max-width: 450px;
+  float:right}
+
+.heading img{
+  float : left;
+  max-height: 550px;
+  max-height: 550px;
+}
+.title1 {
+  background-color:lightgoldenrodyellow;
+}
+.title1 h1{
+     display:flex;
+    justify-content : center}
+
+.lessonk h2{
+  color:white;
+  text-align: center;
+}
+.lessonn h2{
+  color:white;
+  text-align: center;
+}
+.heading p span{
+  color : red
+}
+
+.dynamic-txts{
+  font-size: 45px;
+  color : red;
+  font-family: 30;
+  background : beige;
+  line-height: 50px;
+  height: 50px;
+  overflow: hidden;
+  letter-spacing: 5px;
+  position: relative;
+  opacity: 0.7;
+  padding: 0;
+  margin: 0;
+  font-weight: 70px;
+
+}
+.dynamic-txts li {
+  list-style: none;
+  margin-right: 40px;
+  animation: slide 9s steps(3) infinite;
+  position: relative;
+  top: 0;
+}
+@keyframes slide {
+  100%{
+    top: -153px;
+
+
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  border-left: 5px solid rgb(248, 170, 0);
+  left : 0;
+  animation: typing 3s steps(20) infinite;
+  width: 100%;
+  background:beige;
+  border-radius : 2.5px
+}
+
+@keyframes typing {
+  50%{
+    left: 100%;
+    margin : 0 -40px 0 40px;
+
+  }
+  100%{
+    right: 100%;
+    margin : 0 -40px 0 40px;
+
+  }
+}
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(49, 119, 224, 0.9);
+    position:fixed;
+    z-index :10;
+  }
+.svr1{
+  text-align:left;
+  margin:20px 80px;
+  width:50%
+  
+}
+.svr2{
+  text-align:right;
+  margin:20px 80px;
+  width:50%
+}
+.kopi{
+  padding: 60px 50px;
+  margin:40px 0px;
+  border-top-left-radius: 120px;
+  border-bottom-left-radius: 120px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-image: linear-gradient(to left,rgba(49, 119, 224, 0.562),black), url(kopi.jpg);
+  color:white;
+}
+.kerja{
+  padding: 60px 50px;
+  margin:40px 0px;
+  border-top-left-radius: 120px;
+  border-bottom-left-radius: 120px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-image: linear-gradient(to left,rgba(49, 119, 224, 0.562),black), url(arduio.jpg);
+  color:white
+  
+}
+
+.org{
+  padding: 51.5px 50px;
+  margin:40px 0px;
+  border-top-right-radius: 120px;
+  border-bottom-right-radius: 120px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-image: linear-gradient(to right,rgba(49, 119, 224, 0.562),black), url(code_bck.jpg);
+  color:white
+  
+}
+.yes{
+  padding: 60px 50px;
+  margin:40px 0px;
+  border-top-right-radius: 120px;
+  border-bottom-right-radius: 120px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-image: linear-gradient(to right,rgba(49, 119, 224, 0.562),black), url(keyboard.jpg);
+  color:white
+}
+.kopi h3{
+  font-size: 20px;
+  margin: 0;
+  font-family:  MS, sans-serif;
+}
+.service{
+  display: inline-flex;
+}
+.org h3{
+  font-size: 18px;
+  margin: 0;
+  font-family:  MS, sans-serif;
+}
+.kerja h3{
+  font-size: 18px;
+  margin: 0;
+  font-family:  MS, sans-serif;
+}
+.yes h3{
+  font-size: 18px;
+  margin: 0;
+  font-family:  MS, sans-serif;
+}
+.service p{
+  font-weight: normal;
+  font-size: 19px;
+margin: 10px;}
+
+.kopi:hover{
+  background-image: linear-gradient(to left,rgb(255, 255, 255,0.562),rgb(68, 46, 46)), url(kopi.jpg);
+  transition: 1.5s;
+  color:black
+}
+.org:hover{
+  background-image: linear-gradient(to left,rgb(37, 112, 47),rgb(255, 255, 255,0.562)), url(code_bck.jpg);
+  transition: 1.5s;
+  color:black
+}
+.kerja:hover{
+  background-image: linear-gradient(to left,rgb(255, 255, 255,0.562),rgb(56, 120, 180)), url(arduio.jpg);
+  transition: 1.5s;
+  color:black
+}
+  
+.yes:hover{
+  background-image: linear-gradient(to left,rgba(250, 8, 177, 0.562),rgb(255, 255, 255,0.562)), url(keyboard.jpg);
+  transition: 1.5s;
+  color:black
+}
