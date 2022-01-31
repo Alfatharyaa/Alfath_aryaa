@@ -249,14 +249,15 @@ padding-bottom: 50px;}
   padding: 0px 10px;
   border-radius: 8px
 }
-.foto img{
+.datadiri img{
     max-height: 450px;
     max-width: 450px;
-    position: relative;
     background-image: linear-gradient(to top right, rgb(40, 112, 160),rgba(29, 123, 151, 0.61),rgb(250, 250, 210));
     border-radius:10px;
     margin: 20px;
-    padding:15px
+    padding:15px;
+    float:left
+    
 }
 
 
@@ -276,7 +277,8 @@ padding-bottom: 50px;}
     padding : 10px 20px 10px 20px;
     border-radius: 5px;
     font-size: 15px;
-    transition: 0.5s
+    transition: 0.5s;
+    margin-right:10px
 }
 .content a:hover{
     background-color:white;
@@ -289,19 +291,19 @@ padding-bottom: 50px;}
 }
 .datadiri{
   width: 100%;
+
 }
 .datadiri ul li{
     list-style: none;
     text-align: left;
     line-height: 40px;
     letter-spacing: 2px;
-    margin:0;
-    padding: 0;
     position: relative;
+
+
 }
 .datadiri ul li span{
     border-radius: 3px;
-    margin-left: -40px;
     background-image: linear-gradient(to right, rgba(40, 112, 160),lightgoldenrodyellow);
     color:rgb(255, 255, 255);
 }
@@ -310,6 +312,11 @@ padding-bottom: 50px;}
   font-size: 30px;
   color:rgba(40, 112, 160);
   padding-bottom:10px;
+  margin:0;
+
+}
+.datadiri p{
+  position: relative;
 }
 @keyframes boxBorderAnimation {
   from { background-position:  0 0, -20px 0, 100% -20px, 0 100%; }
@@ -318,7 +325,7 @@ padding-bottom: 50px;}
 .datadiri h3{
     background-image: repeating-linear-gradient(16deg, lightgoldenrodyellow, lightgoldenrodyellow 17.1px, transparent 19px, transparent 29.8px, lightgoldenrodyellow 31px), repeating-linear-gradient(106deg, lightgoldenrodyellow, lightgoldenrodyellow 17.1px, transparent 19px, transparent 29.8px, lightgoldenrodyellow 31px), repeating-linear-gradient(196deg, lightgoldenrodyellow, lightgoldenrodyellow 17.1px, transparent 19px, transparent 29.8px, lightgoldenrodyellow 31px), repeating-linear-gradient(286deg, rgba(40, 112, 160), rgba(40, 112, 160) 17.1px, transparent 19px, transparent 29.8px, rgba(40, 112, 160) 31px);
     background-size: 10px calc(100% + 32.25px), calc(100% + 32.25px) 5px, 5px calc(100% + 32.25px) , calc(100% + 32.25px) 5px;
-    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-position: 0 0, 0 0, 100% 0, 0 150%;
     background-repeat: no-repeat;
     animation: borderAnimation 0.8s infinite linear;
     }
@@ -452,110 +459,112 @@ header {
     z-index :10;
   }
 .svr1{
-  text-align:left;
-  margin:20px 80px;
-  width:50%
+  margin:20px px;
+  display: inline-flex
+
   
 }
-.svr2{
-  text-align:right;
-  margin:20px 80px;
-  width:50%
-}
 .kopi{
-  padding: 60px 50px;
+  padding: 60px 20px;
   margin:40px 0px;
-  border-top-left-radius: 120px;
-  border-bottom-left-radius: 120px;
+  margin-right: 40px;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background-image: linear-gradient(to left,rgba(49, 119, 224, 0.562),black), url(kopi.jpg);
   color:white;
-  height:80px
+  width:140px;
+  height: 70px;
+  position: relative;
+
 }
-.kerja{
-  padding: 60px 50px;
-  margin:40px 0px;
-  border-top-left-radius: 120px;
-  border-bottom-left-radius: 120px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+.elc{
+  padding: 60px 20px;
+  margin:40px 40px;
+  border-radius: 40px;
   background-image: linear-gradient(to left,rgba(49, 119, 224, 0.562),black), url(arduio.jpg);
   color:white;
-  height:80px
+  width:140px;
+  height: 70px;
+  position: relative;
   
 }
 
-.org{
-  padding: 60px 50px;
-  margin:40px 0px;
-  border-top-right-radius: 120px;
-  border-bottom-right-radius: 120px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+.eng{
+  padding: 60px 20px;
+  margin:40px 40px;
+  border-radius: 40px;
   background-image: linear-gradient(to right,rgba(49, 119, 224, 0.562),black), url(code_bck.jpg);
   color:white;
-  height:80px
+  width:140px;
+  height: 70px;
+  position: relative;
   
 }
-.yes{
-  padding: 60px 50px;
+.wrt{
+  padding: 60px 20px;
   margin:40px 0px;
-  border-top-right-radius: 120px;
-  border-bottom-right-radius: 120px;
+  margin-left: 40px;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   background-image: linear-gradient(to right,rgba(49, 119, 224, 0.562),black), url(keyboard.jpg);
   color:white;
-  height:80px
+  width:140px;
+  height: 70px;
+  position: relative;
   
 }
 .kopi h3{
   font-size: 20px;
   margin: 0;
   font-family:  MS, sans-serif;
+  line-height: 70px;
 }
 .service{
   display: inline-flex;
 }
-.org h3{
+.wrt h3{
   font-size: 20px;
   margin: 0;
   font-family:  MS, sans-serif;
+  line-height: 70px;
 }
-.kerja h3{
-  font-size: 20px;
+.elc h3{
+  font-size: 17px;
   margin: 0;
   font-family:  MS, sans-serif;
 }
-.yes h3{
-  font-size: 20px;
+.eng h3{
+  font-size: 17px;
   margin: 0;
   font-family:  MS, sans-serif;
 }
-.service p{
-  font-weight: normal;
-  font-size: 19px;
-margin: 10px;}
+
 
 .kopi:hover{
   background-image: linear-gradient(to left,rgb(255, 255, 255,0.562),rgb(68, 46, 46)), url(kopi.jpg);
   transition: 1.5s;
   color:black
 }
-.org:hover{
+.elc:hover{
   background-image: linear-gradient(to left,rgb(37, 112, 47),rgb(255, 255, 255,0.562)), url(code_bck.jpg);
   transition: 1.5s;
   color:black
 }
-.kerja:hover{
+.eng:hover{
   background-image: linear-gradient(to left,rgb(255, 255, 255,0.562),rgb(56, 120, 180)), url(arduio.jpg);
   transition: 1.5s;
   color:black
 }
   
-.yes:hover{
+.wrt:hover{
   background-image: linear-gradient(to left,rgba(250, 8, 177, 0.562),rgb(255, 255, 255,0.562)), url(keyboard.jpg);
   transition: 1.5s;
   color:black
+}
+.datadiri p{
+  position: relative;
 }
